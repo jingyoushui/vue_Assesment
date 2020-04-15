@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-<<<<<<< HEAD
 //Uncaught (in promise) undefined
 const routerPush = Router.prototype.push
 Router.prototype.push = function push(location) {
@@ -363,32 +362,3 @@ export const asyncRouterMap = [
  *
  */
 
-=======
-import HelloWorld from '@/components/HelloWorld'
-import index from "../components/index";
-import myMuban from "../components/myMuban";
-
-
-Vue.use(Router)
-
-export default new Router({
-  mode: 'history',
-  routes: [
-    {
-      path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
-    },
-    {
-      path: '/my',
-      name: 'myMuban',
-      component: myMuban
-    },
-    {
-      path: '/index',
-      name: 'index',
-      component: index
-    }
-  ]
-})
->>>>>>> da29080be931c56b53392a70f2bcf4e11f029d63

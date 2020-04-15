@@ -1,4 +1,4 @@
-<template>
+F<template>
   <div id="app">
     <el-container id="container">
       <Aside  v-on:IndexChanged="change($event)"> </Aside>

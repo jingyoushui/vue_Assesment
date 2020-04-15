@@ -1,5 +1,5 @@
 .DS_Store
-<<<<<<< HEAD
+
 node_modules
 /dist
 
@@ -8,10 +8,6 @@ node_modules
 .env.*.local
 
 # Log files
-=======
-node_modules/
-/dist/
->>>>>>> da29080be931c56b53392a70f2bcf4e11f029d63
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
